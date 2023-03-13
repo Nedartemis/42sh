@@ -33,8 +33,8 @@ Vous pouvez trouver des exemples de script shell dans le dossier
 
 Taper ces commandes à la racine du projet :
 
-cmake -S . -B build
-make -C build
+- cmake -S . -B build
+- make -C build
 
 # Tester
 

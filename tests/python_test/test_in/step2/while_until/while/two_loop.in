@@ -1,0 +1,10 @@
+a=true
+b=true
+while $a || $b; do
+    echo $a $b
+    if $a; then
+        a=false
+    else
+        b=false
+    fi
+done

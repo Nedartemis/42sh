@@ -1,0 +1,65 @@
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/great/simple.in
+  stderr: ''
+  stdout: 'simple>$
+
+    toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/great/io_number_stdout.in
+  stderr: ''
+  stdout: 'great_io_number_stdout$
+
+    toto
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/great/after_if.in
+  stderr: 'python_test/test_in/step2/redirections/great/after_if.in: line 3: syntax
+    error near unexpected token `fi''
+
+    python_test/test_in/step2/redirections/great/after_if.in: line 3: `fi''
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/great/in_if.in
+  stderr: 'python_test/test_in/step2/redirections/great/in_if.in: line 3: syntax error
+    near unexpected token `fi''
+
+    python_test/test_in/step2/redirections/great/in_if.in: line 3: `fi''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/great/io_number_stderr.in
+  stderr: ''
+  stdout: 'great_io_number_stderr
+
+    toto
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step2/redirections/great/redir_prefix.in
+  stderr: 'python_test/test_in/step2/redirections/great/redir_prefix.in: line 1: python_test/tmp/echo:
+    No such file or directory
+
+    cat: python_test/tmp/out: No such file or directory
+
+    rm: cannot remove ''python_test/tmp/out'': No such file or directory
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/great/put_in_not_empty_file.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/great/put_in_empty_file.in
+  stderr: ''
+  stdout: 'creating file ...
+
+    '

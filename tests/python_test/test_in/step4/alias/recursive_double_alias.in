@@ -1,0 +1,2 @@
+alias foo='bar'; alias bar='echo'
+foo recursive alias

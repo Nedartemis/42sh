@@ -1,0 +1,4 @@
+IFS=" "
+echo 1$IFS1
+unset IFS
+echo 2$IFS2

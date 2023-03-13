@@ -1,0 +1,4 @@
+src=/home/zoe.breniaux/afs/ing1/42sh/42sh/src
+cd $src
+echo cwd:$PWD
+ls

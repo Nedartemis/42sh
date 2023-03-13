@@ -1,0 +1,24 @@
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/field_splitting_dquote/dquote_not_empty.in
+  stderr: ''
+  stdout: 'hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/field_splitting_dquote/dquote_empty.in
+  stderr: ''
+  stdout: '
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/field_splitting_dquote/dquote_var_in.in
+  stderr: ''
+  stdout: '
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/field_splitting_dquote/dquote_var_in2.in
+  stderr: ''
+  stdout: 'hello
+
+    '

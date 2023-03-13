@@ -1,0 +1,6 @@
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/dot/exist_not_path.in
+  stderr: ''
+  stdout: 'toto
+
+    '

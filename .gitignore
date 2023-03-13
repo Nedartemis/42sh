@@ -1,0 +1,17 @@
+# directories
+
+build
+CMakeFiles
+CMakeCache.txt
+
+# files
+
+# exectuble
+
+42sh
+testsuite
+testsuite_criterion
+
+# files
+
+CMakeCache.txt

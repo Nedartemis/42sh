@@ -1,0 +1,9 @@
+a=false
+echo before loop
+until $a; do
+    a=true
+    echo should be print a = $a
+    continue
+    echo should not be print
+done
+echo after loop

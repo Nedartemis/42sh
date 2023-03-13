@@ -1,0 +1,1 @@
+a=`func () { echo toto; }; func; `; func; echo :$a:

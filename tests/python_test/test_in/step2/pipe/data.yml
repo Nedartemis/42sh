@@ -1,0 +1,101 @@
+- exitcode: 0
+  file: python_test/test_in/step2/pipe/ls_cat_pipe.in
+  stderr: ''
+  stdout: '42sh$
+
+    Makefile$
+
+    build.sh$
+
+    criterion_test$
+
+    file_test$
+
+    py_env.sh$
+
+    python_test$
+
+    script_test$
+
+    tmp$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/pipe/if_pipe.in
+  stderr: ''
+  stdout: 'toto$
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step2/pipe/false_pipe_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/pipe/bc_pipe_cat.in
+  stderr: ''
+  stdout: '2$
+
+    '
+- exitcode: 127
+  file: python_test/test_in/step2/pipe/both_cmd_do_not_exist.in
+  stderr: 'python_test/test_in/step2/pipe/both_cmd_do_not_exist.in: line 1: lsmd:
+    command not found
+
+    python_test/test_in/step2/pipe/both_cmd_do_not_exist.in: line 1: het: command
+    not found
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/pipe/true_pipe_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 127
+  file: python_test/test_in/step2/pipe/false_pipe_true.in
+  stderr: 'python_test/test_in/step2/pipe/false_pipe_true.in: line 1: $''\302\240true'':
+    command not found
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/pipe/echo_cat_pipe.in
+  stderr: ''
+  stdout: 'toto$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/pipe/cmd_do_not_exist.in
+  stderr: 'python_test/test_in/step2/pipe/cmd_do_not_exist.in: line 1: lsqa: command
+    not found
+
+    '
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step2/pipe/true_pipe_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/pipe/double_pipe.in
+  stderr: ''
+  stdout: 'toto$
+
+    '
+- exitcode: 127
+  file: python_test/test_in/step2/pipe/right_cmd_does_not_exist.in
+  stderr: 'python_test/test_in/step2/pipe/right_cmd_does_not_exist.in: line 1: catr:
+    command not found
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/pipe/four_pipes.in
+  stderr: ''
+  stdout: '4 putain de pipes !!$$$$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/pipe/cat_pipe_bc.in
+  stderr: '(standard_in) 1: illegal character: $
+
+    '
+  stdout: ''

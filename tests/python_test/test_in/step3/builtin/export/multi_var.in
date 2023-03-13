@@ -1,0 +1,2 @@
+export o=toto a=tata u=LOUITOS
+echo $o\\n$a\\n$u\\n

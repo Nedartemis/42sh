@@ -1,0 +1,7 @@
+echo $PWD
+a=$PWD/python_test
+cd $a
+cd test_in
+cd -
+echo old:$OLDPWD
+echo new:$PWD

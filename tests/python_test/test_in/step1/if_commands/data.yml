@@ -1,0 +1,62 @@
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/3if_true_else.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/8if_colliding_key_words.in
+  stderr: ''
+  stdout: 'if then
+
+    else
+
+    fi
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/4if_false_else.in
+  stderr: ''
+  stdout: 'false
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step1/if_commands/return_code.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/6if_border_effects.in
+  stderr: ''
+  stdout: 'cond
+
+    thenclause
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/1if_true.in
+  stderr: ''
+  stdout: 'true
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/2if_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/5two_if_true.in
+  stderr: ''
+  stdout: 'truetrue
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/7if_many_commands.in
+  stderr: ''
+  stdout: 'Hello
+
+    inside if
+
+    Goodby!
+
+    '

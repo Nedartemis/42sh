@@ -1,0 +1,34 @@
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/escaped_char/escape_newline_with_ope.in
+  stderr: ''
+  stdout: 'toto
+
+    tutu
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/escaped_char/escape_newline_with_ope2.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/escaped_char/escape_special_char.in
+  stderr: ''
+  stdout: '|&;<>()$`"''  *?[]#~=%
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/escaped_char/weird_args.in
+  stderr: ''
+  stdout: '$ % # ^ \ :
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/escaped_char/follow_escaped_escape_char.in
+  stderr: ''
+  stdout: 'hello\
+
+    toto
+
+    '

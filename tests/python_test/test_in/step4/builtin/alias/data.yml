@@ -1,0 +1,47 @@
+- exitcode: 1
+  file: python_test/test_in/step4/builtin/alias/dico_alias_empty.in
+  stderr: 'python_test/test_in/step4/builtin/alias/dico_alias_empty.in: line 1: alias:
+    a: not found
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step4/builtin/alias/unassign_alias.in
+  stderr: ''
+  stdout: 'a=''1''
+
+    b=''2''
+
+    c=''2''
+
+    d=''3''
+
+    a=''1''
+
+    c=''2''
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/builtin/alias/alias_does_not_exist.in
+  stderr: ''
+  stdout: 'a=''1''
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/builtin/alias/alias.in
+  stderr: ''
+  stdout: 'louis=''rigolo''
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/builtin/alias/alias_all.in
+  stderr: ''
+  stdout: 'julien=''imitateur''
+
+    louis=''rigolo''
+
+    sacha=''gigasmart''
+
+    zoe=''lpb''
+
+    '

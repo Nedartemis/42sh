@@ -1,0 +1,5 @@
+a=hello
+a() { echo should be print; }
+unset a
+echo :$a:
+a

@@ -1,0 +1,7 @@
+if echo first part
+   echo second part
+   echo third part; then
+    echo thencond
+else
+    echo elsecond
+fi

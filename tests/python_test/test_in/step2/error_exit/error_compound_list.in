@@ -1,0 +1,3 @@
+if cmd_dont_exist should not be print; echo tutu; then
+    echo toto;
+fi

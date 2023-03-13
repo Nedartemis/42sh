@@ -1,0 +1,4 @@
+if true; then
+    exit
+fi
+echo toto

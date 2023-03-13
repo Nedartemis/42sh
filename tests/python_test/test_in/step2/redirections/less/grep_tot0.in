@@ -1,0 +1,1 @@
+if grep -q "tot0" < python_test/tmp/grep_file_DO_NOT_RM.txt; then echo "Found!"; fi

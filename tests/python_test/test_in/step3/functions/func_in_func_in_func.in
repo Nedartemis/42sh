@@ -1,0 +1,1 @@
+foo() { bar() { barre() { echo toto; } ; }  ; } ; foo ; bar ; barre ;

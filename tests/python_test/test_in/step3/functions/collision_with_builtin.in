@@ -1,0 +1,2 @@
+echo () { /bin/echo the fake echo; }
+echo the good echo

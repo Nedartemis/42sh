@@ -1,0 +1,5 @@
+if dont_exist toto; then
+    echo should not be print
+else
+    echo should be print
+fi

@@ -1,0 +1,3 @@
+a=tutu
+. file_test/executable.sh
+echo $a

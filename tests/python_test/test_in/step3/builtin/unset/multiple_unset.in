@@ -1,0 +1,1 @@
+a=hello b=world; echo before $a $b; unset a b; echo "after unset $a $b"

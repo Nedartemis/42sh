@@ -1,0 +1,5 @@
+a=false
+until $a; do
+    a=true
+    false
+done

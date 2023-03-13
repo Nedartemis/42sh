@@ -1,0 +1,2 @@
+> tmp/out.test >> tmp/err.test
+cat -e tmp/out.test tmp/err.test

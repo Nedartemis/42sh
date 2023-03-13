@@ -1,0 +1,26 @@
+- exitcode: 0
+  file: tests/python_test/test_in/simple_test/ls.in
+  stderr: false
+  stdout: '42sh
+
+    CMakeLists.txt
+
+    README.md
+
+    build
+
+    src
+
+    tests
+
+    '
+- exitcode: 0
+  file: tests/python_test/test_in/simple_test/cd.in
+  stderr: false
+  stdout: ''
+- exitcode: 0
+  file: tests/python_test/test_in/echo_test/echo.in
+  stderr: false
+  stdout: 'toto
+
+    '

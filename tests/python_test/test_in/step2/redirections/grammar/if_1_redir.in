@@ -1,0 +1,4 @@
+if true; then
+    echo toto
+fi > tmp/out.test
+cat -e tmp/out.test;

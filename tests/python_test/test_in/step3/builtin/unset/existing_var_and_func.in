@@ -1,0 +1,8 @@
+a='should be unset'
+a() { echo should be print one time; }
+unset a
+echo :$a:
+a
+unset a
+echo :$a:
+a

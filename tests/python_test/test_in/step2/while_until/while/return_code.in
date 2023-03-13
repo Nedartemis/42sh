@@ -1,0 +1,7 @@
+a=true
+while $a
+do
+    echo exit code should be 1
+    a=false
+    false
+done

@@ -1,0 +1,2 @@
+a=hello b=world
+echo after the assignment :$a$b:

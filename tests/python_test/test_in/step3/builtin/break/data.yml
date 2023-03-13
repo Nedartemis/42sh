@@ -1,0 +1,232 @@
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/while_two_1.in
+  stderr: ''
+  stdout: 'before loop
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    in the second loop : should be print
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    in the second loop : should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/until_one.in
+  stderr: ''
+  stdout: 'before loop
+
+    should be print a = true
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/until_two_1.in
+  stderr: ''
+  stdout: 'before loop
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    in the second loop : should be print
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    in the second loop : should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/until_two.in
+  stderr: ''
+  stdout: 'before loop
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    in the second loop : should be print
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    in the second loop : should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/for_one.in
+  stderr: ''
+  stdout: 'before loop
+
+    i = 1 should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/no_loop.in
+  stderr: ''
+  stdout: 'toto
+
+    hello
+
+    world
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/while_two_2.in
+  stderr: ''
+  stdout: 'before loop
+
+    in the second loop begin
+
+    in the first loop : should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/for_two_3.in
+  stderr: ''
+  stdout: 'before loop
+
+    i = 1
+
+    j = 1
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/for_two_1.in
+  stderr: ''
+  stdout: 'before loop
+
+    i = 1
+
+    j = 1
+
+    i = 1 should be print
+
+    i = 2
+
+    j = 1
+
+    i = 2 should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/until_two_3.in
+  stderr: ''
+  stdout: 'before loop
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/while_one.in
+  stderr: ''
+  stdout: 'before loop
+
+    should be print a = false
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/until_two_2.in
+  stderr: ''
+  stdout: 'before loop
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/while_two.in
+  stderr: ''
+  stdout: 'before loop
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    in the second loop : should be print
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    in the second loop : should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/for_two_2.in
+  stderr: ''
+  stdout: 'before loop
+
+    i = 1 should be print
+
+    j = 1 should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/for_two.in
+  stderr: ''
+  stdout: 'before loop
+
+    i = 1
+
+    j = 1
+
+    i = 1 should be print
+
+    i = 2
+
+    j = 1
+
+    i = 2 should be print
+
+    after loop
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/break/while_two_3.in
+  stderr: ''
+  stdout: 'before loop
+
+    in the second loop should be print
+
+    in the first loop : should be print
+
+    after loop
+
+    '

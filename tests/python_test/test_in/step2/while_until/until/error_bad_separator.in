@@ -1,0 +1,4 @@
+until true
+then
+    echo toto
+done

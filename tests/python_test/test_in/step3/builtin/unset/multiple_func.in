@@ -1,0 +1,8 @@
+foo () { echo toto; }
+hello () { echo hello; }
+foo
+hello
+unset -f foo
+unset -f hello
+foo
+hello

@@ -1,0 +1,18 @@
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/double_quote/esape_in_double_quote/new_line.in
+  stderr: ''
+  stdout: 'newline
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/double_quote/esape_in_double_quote/keep_special_meaning.in
+  stderr: ''
+  stdout: '$`"\
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/double_quote/esape_in_double_quote/lost_special_meaning.in
+  stderr: ''
+  stdout: '\/\*\-\+\&\*\(\)\_\-\+\=\|\!\@\#$\%\^\ \  \''\<\>
+
+    '

@@ -1,0 +1,3 @@
+6<>python_test/tmp/fd6_open_and_use.test echo toto 1>&6
+cat python_test/tmp/fd6_open_and_use.test
+rm python_test/tmp/fd6_open_and_use.test

@@ -1,0 +1,36 @@
+- exitcode: 1
+  file: python_test/test_in/step3/builtin/exit/no_arg2.in
+  stderr: ''
+  stdout: ''
+- exitcode: 5
+  file: python_test/test_in/step3/builtin/exit/arg5.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step3/builtin/exit/no_arg.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/exit/pipe3.in
+  stderr: ''
+  stdout: 'hello
+
+    should be print
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/exit/with_if.in
+  stderr: ''
+  stdout: ''
+- exitcode: 8
+  file: python_test/test_in/step3/builtin/exit/pipe2.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/exit/arg0.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step3/builtin/exit/arg1.in
+  stderr: ''
+  stdout: ''

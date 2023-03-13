@@ -1,0 +1,1 @@
+echo cond1; false || echo cond2; false || echo cond3; false || echo cond4; false

@@ -1,0 +1,1 @@
+case toto in ( tutu ) echo toto ; ;; ( not_toto ) echo tutu ; esac

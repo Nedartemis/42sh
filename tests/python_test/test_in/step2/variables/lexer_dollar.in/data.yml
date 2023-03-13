@@ -1,0 +1,20 @@
+- exitcode: 2
+  file: python_test/test_in/step2/variables/lexer_dollar.in/not_the_close_bracket_inside_double_quote.in
+  stderr: 'python_test/test_in/step2/variables/lexer_dollar.in/not_the_close_bracket_inside_double_quote.in:
+    line 1: unexpected EOF while looking for matching `"''
+
+    python_test/test_in/step2/variables/lexer_dollar.in/not_the_close_bracket_inside_double_quote.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step2/variables/lexer_dollar.in/not_the_close_bracket.in
+  stderr: 'python_test/test_in/step2/variables/lexer_dollar.in/not_the_close_bracket.in:
+    line 1: unexpected EOF while looking for matching `}''
+
+    python_test/test_in/step2/variables/lexer_dollar.in/not_the_close_bracket.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''

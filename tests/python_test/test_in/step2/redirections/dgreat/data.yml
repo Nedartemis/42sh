@@ -1,0 +1,42 @@
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/dgreat/simple.in
+  stderr: ''
+  stdout: 'simple>>$
+
+    toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/dgreat/io_number_stdout.in
+  stderr: ''
+  stdout: 'great_io_number_stdout$
+
+    toto
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/dgreat/after_if.in
+  stderr: 'python_test/test_in/step2/redirections/dgreat/after_if.in: line 3: syntax
+    error near unexpected token `fi''
+
+    python_test/test_in/step2/redirections/dgreat/after_if.in: line 3: `fi''
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/dgreat/in_if.in
+  stderr: 'python_test/test_in/step2/redirections/dgreat/in_if.in: line 3: syntax
+    error near unexpected token `fi''
+
+    python_test/test_in/step2/redirections/dgreat/in_if.in: line 3: `fi''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/dgreat/io_number_stderr.in
+  stderr: ''
+  stdout: 'great_io_number_stderr
+
+    toto
+
+    '

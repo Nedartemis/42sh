@@ -1,0 +1,1 @@
+if false; true; then echo then_cond; else echo else_cond; fi

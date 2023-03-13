@@ -1,0 +1,136 @@
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_e_backslash_n_2_quotes.in
+  stderr: ''
+  stdout: 'f
+
+    f
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_e_backslash_backslash_2_no_quote.in
+  stderr: ''
+  stdout: '\ \ n
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_E_baskslash_baskslash.in
+  stderr: ''
+  stdout: 'ff
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_multiple_opt_simple.in
+  stderr: ''
+  stdout: toto\hello
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_bad_opt_then_good_opt.in
+  stderr: ''
+  stdout: '-R -nE toton
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_tab.in
+  stderr: ''
+  stdout: 'ftf
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_good_opt_then_bad_opt.in
+  stderr: ''
+  stdout: '-R totot
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_multiple_opt_at_once.in
+  stderr: ''
+  stdout: toton
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_e_backslash_3.in
+  stderr: ''
+  stdout: '42\nsh
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_e_backslash_1.in
+  stderr: ''
+  stdout: "42\\\tsh\n"
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_e_backslash_backslash_2_quotes.in
+  stderr: ''
+  stdout: "\\ \\ \n\n"
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_e_backslash_2.in
+  stderr: ''
+  stdout: '\\\\
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_e_baskslash_n.in
+  stderr: ''
+  stdout: 'fnf
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_e_tab.in
+  stderr: ''
+  stdout: 'ftf
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_E_baskslash_n.in
+  stderr: ''
+  stdout: 'fnf
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_E_tab.in
+  stderr: ''
+  stdout: 'ftf
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_backslash_n.in
+  stderr: ''
+  stdout: 'fnf
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_simple.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_E_backslash_backslash_3.in
+  stderr: ''
+  stdout: 'hello\nworld\n!
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_n.in
+  stderr: ''
+  stdout: toto
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_wrong_option.in
+  stderr: ''
+  stdout: '-R toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_eEe.in
+  stderr: ''
+  stdout: '\\\\
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_backslash_backslash.in
+  stderr: ''
+  stdout: 'ff
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/echo/echo_e_baskslash_baskslash.in
+  stderr: ''
+  stdout: 'ff
+
+    '

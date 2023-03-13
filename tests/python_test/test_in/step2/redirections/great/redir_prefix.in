@@ -1,0 +1,4 @@
+> tmp/out.test python_test/tmp/echo > python_test/tmp/out2 toto
+cat python_test/tmp/out
+cat python_test/tmp/out2
+rm python_test/tmp/out python_test/tmp/out2

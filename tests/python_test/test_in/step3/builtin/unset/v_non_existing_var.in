@@ -1,0 +1,4 @@
+a () { echo should be print; }
+unset -v a
+echo :$a:
+a

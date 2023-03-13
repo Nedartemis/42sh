@@ -1,0 +1,1 @@
+echo cond1 && echo cond2 || echo cond3 && echo cond4 || echo cond5 || echo cond6 && echo cond7

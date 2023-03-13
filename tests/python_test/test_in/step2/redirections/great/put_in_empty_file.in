@@ -1,0 +1,3 @@
+echo creating file ... > python_test/tmp/new_file.txt
+cat python_test/tmp/new_file.txt
+rm python_test/tmp/new_file.txt

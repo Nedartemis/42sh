@@ -1,0 +1,30 @@
+- exitcode: 0
+  file: python_test/test_in/step2/variables/assignment/simple.in
+  stderr: ''
+  stdout: 'hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/assignment/with_single_quote.in
+  stderr: ''
+  stdout: 'hello world
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/assignment/with_double_quote.in
+  stderr: ''
+  stdout: 'hello wolrd
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/assignment/dollar_inside_double_quote.in
+  stderr: ''
+  stdout: ':<hello>:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/assignment/with_dollar.in
+  stderr: ''
+  stdout: ':hello:
+
+    '

@@ -1,0 +1,2 @@
+alias foo='true &'
+foo& false

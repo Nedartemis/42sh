@@ -1,0 +1,3 @@
+a=toto
+a=Hello b=World echo :$a$b:
+echo :$a$b:

@@ -1,0 +1,6 @@
+a=true
+while $a; do
+    echo $a
+    a=false
+    echo toto
+done

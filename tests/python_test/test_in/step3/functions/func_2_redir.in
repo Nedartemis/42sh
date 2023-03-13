@@ -1,0 +1,4 @@
+foo () { echo toto } > tmp/out.test 2> tmp/err.test
+cat -e tmp/out.test;
+cat -e tmp/err.test;
+foo;

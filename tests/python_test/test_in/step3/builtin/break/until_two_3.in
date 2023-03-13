@@ -1,0 +1,18 @@
+echo before loop
+a=false
+b=false
+until $a && $b; do
+    echo in the second loop should be print
+    until $a && $b; do
+        if $a; then
+            b=true
+        else
+            a=true
+        fi
+        echo in the first loop : should be print
+        break 3
+        echo in the first loop : should not be print
+    done
+    echo in the second loop : should not be print
+done
+echo after loop

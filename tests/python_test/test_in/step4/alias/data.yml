@@ -1,0 +1,52 @@
+- exitcode: 0
+  file: python_test/test_in/step4/alias/simple.in
+  stderr: ''
+  stdout: 'should be print
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/alias/recursive_triple.in
+  stderr: ''
+  stdout: 'tripple !!!
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/alias/open_par_inside.in
+  stderr: ''
+  stdout: 'call of func
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/alias/error.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/alias/recursive_double_alias.in
+  stderr: ''
+  stdout: 'recursive alias
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/alias/bracket_inside.in
+  stderr: ''
+  stdout: 'call of func
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step4/alias/half_ope_inside.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step4/alias/two_alias_sep_space.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/alias/pars_inside.in
+  stderr: ''
+  stdout: 'call of func
+
+    '

@@ -1,0 +1,2 @@
+if true; then
+    echo error_grammar_exit_code

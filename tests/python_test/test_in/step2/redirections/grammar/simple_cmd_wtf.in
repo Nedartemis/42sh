@@ -1,0 +1,5 @@
+a=hello > tmp/out.test echo :$a: 2> tmp/err.test a=toto
+echo "a = $a"
+cat -e tmp/out.test
+cat -e tmp/err.test
+rm tmp/out.test tmp/err.test

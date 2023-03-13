@@ -1,0 +1,148 @@
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/simple.in
+  stderr: ''
+  stdout: ':toto:
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/return_code_fale.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/single_quoted.in
+  stderr: ''
+  stdout: '$(echo toto)
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/emmbeded.in
+  stderr: ''
+  stdout: ':?toto?:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/no_newline.in
+  stderr: ''
+  stdout: ':toto:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/embedded_in_dquote.in
+  stderr: ''
+  stdout: ':toto:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/func_in.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_dollar/func_in.in:
+    line 1: func: command not found
+
+    '
+  stdout: ':toto:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/lot_of_newlines.in
+  stderr: ''
+  stdout: ':
+
+
+    hello
+
+    world:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/dquote_squote_backslash_func_var_inside.in
+  stderr: ''
+  stdout: ':dquote squote \ hello:
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/error_par_embedded.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_dollar/error_par_embedded.in:
+    line 1: unexpected EOF while looking for matching `)''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_dollar/error_par_embedded.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/dollar_backslash.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_dollar/dollar_backslash.in:
+    line 1: syntax error near unexpected token `(''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_dollar/dollar_backslash.in:
+    line 1: `echo \$(echo toto)''
+
+    '
+  stdout: ''
+- exitcode: 127
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/return_code_error.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_dollar/return_code_error.in:
+    line 1: cmd_does_not_exist: command not found
+
+    '
+  stdout: ''
+- exitcode: 8
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/return_code_exit_8.in
+  stderr: ''
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/error_par.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_dollar/error_par.in:
+    line 1: unexpected EOF while looking for matching `)''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_dollar/error_par.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/very_recusive.in
+  stderr: ''
+  stdout: '1234567toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/return_code_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/use_function_inside.in
+  stderr: ''
+  stdout: '?toto?
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/error_inside.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_dollar/error_inside.in:
+    line 1: cmd_does_not_exist: command not found
+
+    '
+  stdout: '::
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/var_in.in
+  stderr: ''
+  stdout: 'a = :hello: b = ::
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/use_var_create_outside.in
+  stderr: ''
+  stdout: '?:hello:?
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step3/command_substitution/cmd_subst_dollar/not_close_par_for_func_inside.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_dollar/not_close_par_for_func_inside.in:
+    line 1: unexpected EOF while looking for matching `)''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_dollar/not_close_par_for_func_inside.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''

@@ -1,0 +1,4 @@
+echo 'great_io_number_stdout' 1>> python_test/tmp/tmp.txt
+cat -e python_test/tmp/tmp.txt
+rm python_test/tmp/tmp.txt
+echo toto

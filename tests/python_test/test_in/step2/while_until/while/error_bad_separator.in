@@ -1,0 +1,3 @@
+while false; then
+    echo toto
+done

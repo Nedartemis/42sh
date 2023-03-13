@@ -1,0 +1,1 @@
+echo hello my # MUST NOT BE PRINTED

@@ -1,0 +1,22 @@
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/alias/unassign_alias.in
+  stderr: ''
+  stdout: 'a=''1''
+
+    b=''2''
+
+    c=''2''
+
+    d=''3''
+
+    a=''1''
+
+    c=''2''
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/alias/alias.in
+  stderr: ''
+  stdout: 'louis=''rigolo''
+
+    '

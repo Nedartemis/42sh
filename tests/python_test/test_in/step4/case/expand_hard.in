@@ -1,0 +1,2 @@
+a="Hello World";
+case $a in ( "Hello World" ) echo hello_world; ;; ( "Hello" ) echo hello ; esac

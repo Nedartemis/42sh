@@ -1,0 +1,4 @@
+IFS=" "; a="   ";
+for word in $a; do
+    echo "<$word>"
+done

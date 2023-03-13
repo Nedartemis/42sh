@@ -1,0 +1,96 @@
+- exitcode: 0
+  file: python_test/test_in/step3/subshell/simple.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/subshell/before_and_after_exit.in
+  stderr: ''
+  stdout: 'toto
+
+    tata
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/subshell/in_subshell.in
+  stderr: ''
+  stdout: 'toto
+
+    tutu
+
+    in_subshell
+
+    tata
+
+    '
+- exitcode: 8
+  file: python_test/test_in/step3/subshell/with_exit_value.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step3/subshell/hard.in
+  stderr: ''
+  stdout: '42sh
+
+    Makefile
+
+    build.sh
+
+    criterion_test
+
+    file_test
+
+    py_env.sh
+
+    python_test
+
+    script_test
+
+    tmp
+
+    toto
+
+    tutu
+
+    '
+- exitcode: 8
+  file: python_test/test_in/step3/subshell/before_exit.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/subshell/with_exit.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/subshell/after_exit.in
+  stderr: ''
+  stdout: 'tutu
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/subshell/simple_double.in
+  stderr: ''
+  stdout: 'toto
+
+    42sh
+
+    Makefile
+
+    build.sh
+
+    criterion_test
+
+    file_test
+
+    py_env.sh
+
+    python_test
+
+    script_test
+
+    tmp
+
+    '

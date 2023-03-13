@@ -1,0 +1,7 @@
+func() {
+    echo should not be print
+}
+func='should be print'
+unset -f func
+func
+echo $func

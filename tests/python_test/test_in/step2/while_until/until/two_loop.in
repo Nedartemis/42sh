@@ -1,0 +1,10 @@
+a=false
+b=false
+until $a && $b; do
+    echo $a $b
+    if $a; then
+        b=true
+    else
+        a=true
+    fi
+done

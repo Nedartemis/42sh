@@ -1,0 +1,81 @@
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/hash_brackets.in
+  stderr: ''
+  stdout: '2
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/at.in
+  stderr: ''
+  stdout: '
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/oldpwd.in
+  stderr: ''
+  stdout: '/home/secouss/Documents/epita/S5/prog/42sh_dir/github
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/at_with_without_func.in
+  stderr: ''
+  stdout: 'coucou toi
+
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step2/variables/special_var/multiple_var_one_line_v2.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/star.in
+  stderr: ''
+  stdout: '
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/hash.in
+  stderr: ''
+  stdout: '2
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/ifs.in
+  stderr: ''
+  stdout: " \t\n\n"
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/uid.in
+  stderr: ''
+  stdout: '1000
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/hash_no_func.in
+  stderr: ''
+  stdout: '0
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/ifs_intra.in
+  stderr: ''
+  stdout: " \t\n\nhello\n"
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/multiple_var_one_line.in
+  stderr: ''
+  stdout: '1
+
+    2
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/interrogation.in
+  stderr: ''
+  stdout: '0
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/special_var/at_func.in
+  stderr: ''
+  stdout: 'hello world
+
+    '

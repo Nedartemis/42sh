@@ -1,0 +1,8 @@
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/unset/unset_var_env/unset_IFS.in
+  stderr: ''
+  stdout: '1
+
+    2
+
+    '

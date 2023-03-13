@@ -1,0 +1,4 @@
+if true then
+    echo toto;
+fi
+ls 5<>tmp/test.test 1>&0 0<&5

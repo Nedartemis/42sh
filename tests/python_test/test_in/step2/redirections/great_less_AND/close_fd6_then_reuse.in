@@ -1,0 +1,2 @@
+6<>python_test/tmp/close_and_reuse.test 6>&- 6<&- echo toto 1>&6
+# rm python_test/tmp/close_and_reuse.test

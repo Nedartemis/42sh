@@ -1,0 +1,42 @@
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/great_less_AND/after_if.in
+  stderr: 'python_test/test_in/step2/redirections/great_less_AND/after_if.in: line
+    3: syntax error near unexpected token `fi''
+
+    python_test/test_in/step2/redirections/great_less_AND/after_if.in: line 3: `fi''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/great_less_AND/fd6_open_and_use.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step2/redirections/great_less_AND/in_if.in
+  stderr: 'rm: cannot remove ''python/tmp/test'': No such file or directory
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/great_less_AND/open_then_close_fd5.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/great_less_AND/ampersand.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step2/redirections/great_less_AND/close_fd6_then_reuse.in
+  stderr: 'python_test/test_in/step2/redirections/great_less_AND/close_fd6_then_reuse.in:
+    line 1: 6: Bad file descriptor
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/great_less_AND/open_then_close_fd5_return_code.in
+  stderr: ''
+  stdout: ''

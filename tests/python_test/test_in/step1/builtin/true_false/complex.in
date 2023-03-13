@@ -1,0 +1,1 @@
+if echo toto; true; then echo false; else echo true; fi

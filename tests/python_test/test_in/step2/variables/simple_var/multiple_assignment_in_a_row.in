@@ -1,0 +1,1 @@
+a=hello b=$a; echo "a=$a ; b=$b"

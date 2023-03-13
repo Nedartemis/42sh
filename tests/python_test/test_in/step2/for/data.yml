@@ -1,0 +1,55 @@
+- exitcode: 0
+  file: python_test/test_in/step2/for/simple.in
+  stderr: ''
+  stdout: 'toto
+
+    toto
+
+    toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/for/newlines.in
+  stderr: ''
+  stdout: 'toto
+
+    toto
+
+    toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/for/assignment.in
+  stderr: ''
+  stdout: 'a
+
+    b
+
+    c
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/for/for_in.in
+  stderr: ''
+  stdout: 'in
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step2/for/no_body.in
+  stderr: 'python_test/test_in/step2/for/no_body.in: line 3: syntax error near unexpected
+    token `done''
+
+    python_test/test_in/step2/for/no_body.in: line 3: `done''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/for/echo_for.in
+  stderr: ''
+  stdout: 'for
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/for/no_list.in
+  stderr: ''
+  stdout: ''

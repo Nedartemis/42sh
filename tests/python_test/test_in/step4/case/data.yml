@@ -1,0 +1,68 @@
+- exitcode: 0
+  file: python_test/test_in/step4/case/no_parenthesis.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/case/no_match.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step4/case/expand_hard.in
+  stderr: ''
+  stdout: 'hello_world
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/case/many_matchs.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/case/case_simple.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/case/case_second.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/case/expand_word.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/case/expand_case.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/case/newlines_simple_simple.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/case/newlines_simple.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/case/empty.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step4/case/many_newlines.in
+  stderr: ''
+  stdout: 'tutu
+
+    '

@@ -1,0 +1,27 @@
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/less/simple.in
+  stderr: ''
+  stdout: 'SHOULD APPEAR IN STDOUT WITH A DOLLAR HERE >$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/less/in_if.in
+  stderr: ''
+  stdout: 'simple>$
+
+    toto
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step2/redirections/less/unexisting_file.in
+  stderr: 'python_test/test_in/step2/redirections/less/unexisting_file.in: line 1:
+    unexisting_file.txt: No such file or directory
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/less/grep_tot0.in
+  stderr: ''
+  stdout: 'Found!
+
+    '

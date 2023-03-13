@@ -1,0 +1,7 @@
+if true
+;
+then
+    echo should raise an error
+else
+    echo should raise an error
+fi

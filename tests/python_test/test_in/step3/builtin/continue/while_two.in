@@ -1,0 +1,18 @@
+echo before loop
+a=true
+b=true
+while $a || $b; do
+    echo in the second loop should be print
+    while $a || $b; do
+        if $a; then
+            a=false
+        else
+            b=false
+        fi
+        echo in the first loop : should be print
+        continue
+        echo in the first loop : should not be print
+    done
+    echo in the second loop : should be print
+done
+echo after loop

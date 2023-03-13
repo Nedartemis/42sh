@@ -1,0 +1,4 @@
+func='should be print'
+unset -f func
+echo $func
+func

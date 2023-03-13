@@ -1,0 +1,42 @@
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/export/var_called_outta_subshell.in
+  stderr: ''
+  stdout: '
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/export/assign_before_export.in
+  stderr: ''
+  stdout: 'leaks
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/export/42sh.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/export/var_called_in_subshell.in
+  stderr: ''
+  stdout: 'le_chev
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/export/simple_var.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/export/multi_var.in
+  stderr: ''
+  stdout: 'toto\ntata\nLOUITOS\n
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/export/set_empty_then_export.in
+  stderr: ''
+  stdout: 'toto
+
+    '

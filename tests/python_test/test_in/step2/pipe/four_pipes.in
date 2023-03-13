@@ -1,0 +1,1 @@
+echo '4 putain de pipes !!' | cat -e | cat -e | cat -e | cat -e

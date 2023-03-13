@@ -1,0 +1,3 @@
+rm tmp/test.test
+foo () { echo toto; } > tmp/test.test >> tmp/test.test; foo; foo
+cat -e tmp/test.test; rm tmp/test.test

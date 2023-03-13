@@ -1,0 +1,127 @@
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/all_operator.in
+  stderr: ''
+  stdout: 'cond1
+
+    cond2
+
+    cond4
+
+    cond7
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step2/and_or/false_or_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/false_and_true_or_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/all_operator2.in
+  stderr: 'python_test/test_in/step2/and_or/all_operator2.in: line 2: $''\302\240echo'':
+    command not found
+
+    '
+  stdout: 'cond1
+
+    cond2
+
+    cond4
+
+    cond7
+
+    cond9
+
+    cond11
+
+    cond12
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/true_and_true_and_true_and_true_and_false_or_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/false_or_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step2/and_or/and_as_if2.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/tricky_one.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step2/and_or/false_and_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/and_as_if.in
+  stderr: ''
+  stdout: 'should be print
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step2/and_or/false_and_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/or_as_if.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step2/and_or/true_and_true_and_true_and_true_and_false_or_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step2/and_or/true_and_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/full_and_print.in
+  stderr: ''
+  stdout: 'cond1
+
+    cond2
+
+    cond3
+
+    cond4
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/true_and_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/true_or_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/true_or_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step2/and_or/full_or_print.in
+  stderr: 'python_test/test_in/step2/and_or/full_or_print.in: line 1: $''\302\240echo'':
+    command not found
+
+    python_test/test_in/step2/and_or/full_or_print.in: line 1: $''\302\240echo'':
+    command not found
+
+    '
+  stdout: 'cond1
+
+    cond3
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/and_or/or_as_if2.in
+  stderr: ''
+  stdout: 'should be print
+
+    '

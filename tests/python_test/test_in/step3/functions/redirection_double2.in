@@ -1,0 +1,7 @@
+foo () { echo toto; } > tmp/out1.test > tmp/out2.test; foo; foo
+echo out1 :
+cat -e tmp/out1.test; 
+echo out2 :
+cat -e tmp/out2.test;
+rm tmp/out2.test
+rm tmp/out1.test

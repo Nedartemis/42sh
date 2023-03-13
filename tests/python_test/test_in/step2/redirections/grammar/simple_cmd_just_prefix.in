@@ -1,0 +1,11 @@
+a=toto
+a=hello b=world > tmp/out.test c=bar 2> tmp/err.test
+echo cat stdout
+cat -e tmp/out.test;
+echo cat stderr
+cat -e tmp/err.test;
+echo cat var
+echo a = $a;
+echo b = $b;
+echo c = $c;
+rm tmp/out.test tmp/err.test

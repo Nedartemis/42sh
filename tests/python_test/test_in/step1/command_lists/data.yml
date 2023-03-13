@@ -1,0 +1,56 @@
+- exitcode: 2
+  file: python_test/test_in/step1/command_lists/cmd_list_empty.in
+  stderr: 'python_test/test_in/step1/command_lists/cmd_list_empty.in: line 1: syntax
+    error near unexpected token `;''
+
+    python_test/test_in/step1/command_lists/cmd_list_empty.in: line 1: `;''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/command_lists/cmd_list_semilicon.in
+  stderr: ''
+  stdout: 'toto
+
+    hello
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step1/command_lists/empty_command2.in
+  stderr: 'python_test/test_in/step1/command_lists/empty_command2.in: line 1: syntax
+    error near unexpected token `;''
+
+    python_test/test_in/step1/command_lists/empty_command2.in: line 1: `echo toto;
+    ; echo tutu''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/command_lists/cmd_list_many.in
+  stderr: ''
+  stdout: 'toto
+
+    hello
+
+    wolrd
+
+    foo
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step1/command_lists/empty_command.in
+  stderr: 'python_test/test_in/step1/command_lists/empty_command.in: line 1: syntax
+    error near unexpected token `;''
+
+    python_test/test_in/step1/command_lists/empty_command.in: line 1: `;''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/command_lists/cmd_list_without_semilicon.in
+  stderr: ''
+  stdout: 'toto
+
+    hello
+
+    '

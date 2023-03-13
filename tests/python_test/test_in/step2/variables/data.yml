@@ -1,0 +1,6 @@
+- exitcode: 0
+  file: python_test/test_in/step2/variables/not_name_var.in
+  stderr: ''
+  stdout: 'a$:b
+
+    '

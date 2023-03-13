@@ -1,0 +1,12 @@
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/double_quote/simple.in
+  stderr: ''
+  stdout: 'simple
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/double_quote_escaped_char/double_quote/without_special_char.in
+  stderr: ''
+  stdout: 'abcdefghijklmnopqrstuvwxyz0123456789/*-+ &*()_-+=|!@#$%^&
+
+    '

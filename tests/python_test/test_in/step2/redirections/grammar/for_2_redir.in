@@ -1,0 +1,5 @@
+for i in a b c; do
+    echo toto
+done > tmp/out.test 2> tmp/err.test
+cat -e tmp/out.test;
+cat -e tmp/err.test;

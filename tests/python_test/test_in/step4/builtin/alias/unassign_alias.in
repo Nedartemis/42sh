@@ -1,0 +1,4 @@
+alias a=1 b=2 d=3 c=2
+alias
+unalias 'd' 'b'
+alias

@@ -1,0 +1,1 @@
+echo hello; echo toto | exit 8; echo should be print

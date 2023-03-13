@@ -1,0 +1,190 @@
+- exitcode: 2
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/embedded_backquote_error.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/embedded_backquote_error.in:
+    line 1: unexpected EOF while looking for matching ``''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_backquote/embedded_backquote_error.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/simple.in
+  stderr: ''
+  stdout: ':toto:
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/return_code_fale.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/embedded_backquote_error3.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/embedded_backquote_error3.in:
+    line 1: ?tutu?: command not found
+
+    '
+  stdout: '
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/single_quoted.in
+  stderr: ''
+  stdout: '`echo toto`
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/escaped_backslash.in
+  stderr: ''
+  stdout: '::
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/emmbeded.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/emmbeded.in:
+    command substitution: line 1: syntax error near unexpected token `;''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_backquote/emmbeded.in:
+    command substitution: line 1: `; echo ?$b?''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_backquote/emmbeded.in:
+    line 1: toto: command not found
+
+    '
+  stdout: '::
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/no_newline.in
+  stderr: ''
+  stdout: ':toto:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/embedded_in_dquote.in
+  stderr: ''
+  stdout: ':toto:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/func_in.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/func_in.in:
+    line 1: func: command not found
+
+    '
+  stdout: ':toto:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/lot_of_newlines.in
+  stderr: ''
+  stdout: ':
+
+
+    hello
+
+    world:
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/dollar_backslash.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/dollar_backslash.in:
+    line 1: unexpected EOF while looking for matching ``''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_backquote/dollar_backslash.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/escaped_dollar.in
+  stderr: ''
+  stdout: '?:hello:?
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/dquote_squote_func_var_inside.in
+  stderr: ''
+  stdout: ':dquote squote hello:
+
+    '
+- exitcode: 127
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/return_code_error.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/return_code_error.in:
+    line 1: cmd_does_not_exist: command not found
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/escaped_double_quote.in
+  stderr: ''
+  stdout: ':":
+
+    '
+- exitcode: 8
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/return_code_exit_8.in
+  stderr: ''
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/error_backquote_embedded.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/error_backquote_embedded.in:
+    line 1: unexpected EOF while looking for matching ``''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_backquote/error_backquote_embedded.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/return_code_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/error_inside.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/error_inside.in:
+    line 1: cmd_does_not_exist: command not found
+
+    '
+  stdout: '::
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/error_close_backquote.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/error_close_backquote.in:
+    line 1: unexpected EOF while looking for matching ``''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_backquote/error_close_backquote.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/escaped_interogation.in
+  stderr: ''
+  stdout: ':?:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/var_in.in
+  stderr: ''
+  stdout: 'a = :hello: b = ::
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/use_var.in
+  stderr: ''
+  stdout: '?:world:?
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_substitution/cmd_subst_backquote/not_close_par_for_func_inside.in
+  stderr: 'python_test/test_in/step3/command_substitution/cmd_subst_backquote/not_close_par_for_func_inside.in:
+    command substitution: line 1: syntax error near unexpected token `{''
+
+    python_test/test_in/step3/command_substitution/cmd_subst_backquote/not_close_par_for_func_inside.in:
+    command substitution: line 1: `foo ( { echo toto; }; foo''
+
+    '
+  stdout: '::
+
+    '

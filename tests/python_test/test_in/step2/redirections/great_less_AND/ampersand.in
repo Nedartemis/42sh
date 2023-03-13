@@ -1,0 +1,2 @@
+ls 5<>python_test/tmp/test 1>&0 0<&5
+rm python_test/tmp/test

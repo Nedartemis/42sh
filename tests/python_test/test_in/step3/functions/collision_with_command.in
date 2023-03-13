@@ -1,0 +1,2 @@
+ls () { echo the fake ls; }
+ls

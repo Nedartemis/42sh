@@ -1,0 +1,85 @@
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/unset/existing_var.in
+  stderr: ''
+  stdout: '::
+
+    should be print
+
+    '
+- exitcode: 127
+  file: python_test/test_in/step3/builtin/unset/existing_var_and_func.in
+  stderr: 'python_test/test_in/step3/builtin/unset/existing_var_and_func.in: line
+    8: a: command not found
+
+    '
+  stdout: '::
+
+    should be print one time
+
+    ::
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/unset/multiple_unset.in
+  stderr: ''
+  stdout: "before hello world\nafter unset  \n"
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/unset/v_non_existing_var.in
+  stderr: ''
+  stdout: '::
+
+    should be print
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/unset/v_existiong_var.in
+  stderr: ''
+  stdout: '::
+
+    should be print
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/unset/return_code.in
+  stderr: ''
+  stdout: ''
+- exitcode: 127
+  file: python_test/test_in/step3/builtin/unset/f_non_existing_func.in
+  stderr: 'python_test/test_in/step3/builtin/unset/f_non_existing_func.in: line 4:
+    func: command not found
+
+    '
+  stdout: 'should be print
+
+    '
+- exitcode: 127
+  file: python_test/test_in/step3/builtin/unset/existing_func_not_var.in
+  stderr: 'python_test/test_in/step3/builtin/unset/existing_func_not_var.in: line
+    5: func: command not found
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step3/builtin/unset/multiple_func.in
+  stderr: "python_test/test_in/step3/builtin/unset/multiple_func.in: line 2: syntax\
+    \ error near unexpected token `$'{\\302\\240echo''\npython_test/test_in/step3/builtin/unset/multiple_func.in:\
+    \ line 2: `hello () {\_echo hello; }'\n"
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/unset/f_existing_func.in
+  stderr: 'python_test/test_in/step3/builtin/unset/f_existing_func.in: line 6: func:
+    command not found
+
+    '
+  stdout: 'should be print
+
+    '
+- exitcode: 127
+  file: python_test/test_in/step3/builtin/unset/non_existing_var_nor_func.in
+  stderr: 'python_test/test_in/step3/builtin/unset/non_existing_var_nor_func.in: line
+    3: a: command not found
+
+    '
+  stdout: '::
+
+    '

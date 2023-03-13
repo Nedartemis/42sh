@@ -1,0 +1,3 @@
+zozo=leaks
+export zozo
+echo $zozo

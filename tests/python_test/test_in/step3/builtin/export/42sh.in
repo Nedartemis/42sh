@@ -1,0 +1,2 @@
+export toto=echo tata=toto
+$toto $tata

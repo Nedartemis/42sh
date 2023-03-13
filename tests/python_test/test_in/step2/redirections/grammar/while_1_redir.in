@@ -1,0 +1,4 @@
+while ! echo toto ; do
+    echo tutu;
+done > tmp/out.test
+cat -e tmp/out.test;

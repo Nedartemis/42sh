@@ -1,0 +1,11 @@
+echo before loop
+for i in 1 2; do
+    echo i = $i should be print
+    for j in 1 2; do
+        echo j = $j should be print
+        break 2; echo compound list should not be print
+        echo should not be print
+    done
+    echo i = $i should not be print
+done
+echo after loop

@@ -1,0 +1,7 @@
+a=false
+until $a;
+do
+    echo $a
+    a=true
+    echo toto
+done

@@ -1,0 +1,1 @@
+IFS=$(echo -e "\n\t "); a=$(echo -e "\n\t hello\n\t "); echo $a

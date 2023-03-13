@@ -1,0 +1,2 @@
+foo () { echo toto; } >> tmp/test.test; foo; foo
+cat -e tmp/test.test; rm tmp/test.test

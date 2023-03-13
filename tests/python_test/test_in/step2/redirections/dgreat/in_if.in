@@ -1,0 +1,6 @@
+if true then
+echo 'simple>' >> python_test/tmp/tmp.txt;
+fi
+cat -e python_test/tmp/tmp.txt
+rm python_test/tmp/tmp.txt
+echo toto

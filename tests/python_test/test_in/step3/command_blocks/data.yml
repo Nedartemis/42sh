@@ -1,0 +1,121 @@
+- exitcode: 2
+  file: python_test/test_in/step3/command_blocks/cmd_block_empty_command2.in
+  stderr: 'python_test/test_in/step3/command_blocks/cmd_block_empty_command2.in: line
+    1: syntax error near unexpected token `;''
+
+    python_test/test_in/step3/command_blocks/cmd_block_empty_command2.in: line 1:
+    `{ echo toto; ; echo tutu }''
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step3/command_blocks/cmd_block_empty_command.in
+  stderr: 'python_test/test_in/step3/command_blocks/cmd_block_empty_command.in: line
+    1: syntax error near unexpected token `;''
+
+    python_test/test_in/step3/command_blocks/cmd_block_empty_command.in: line 1: `{
+    ; }''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_blocks/pipe_ls_echo_cat.in
+  stderr: ''
+  stdout: '42sh$
+
+    Makefile$
+
+    build.sh$
+
+    criterion_test$
+
+    file_test$
+
+    py_env.sh$
+
+    python_test$
+
+    script_test$
+
+    tmp$
+
+    1+1$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_blocks/cmd_block_without_semilicon.in
+  stderr: 'python_test/test_in/step3/command_blocks/cmd_block_without_semilicon.in:
+    line 1: {echo: command not found
+
+    '
+  stdout: 'hello}
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/command_blocks/pipe_example_conf.in
+  stderr: ''
+  stdout: 'a
+
+    h
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step3/command_blocks/cmd_block_true_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step3/command_blocks/cmd_block_many.in
+  stderr: 'python_test/test_in/step3/command_blocks/cmd_block_many.in: line 2: syntax
+    error: unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step3/command_blocks/cmd_block_true_false_and_true.in
+  stderr: 'python_test/test_in/step3/command_blocks/cmd_block_true_false_and_true.in:
+    line 2: syntax error: unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step3/command_blocks/cmd_block_semilicon.in
+  stderr: 'python_test/test_in/step3/command_blocks/cmd_block_semilicon.in: line 1:
+    syntax error near unexpected token `}''
+
+    python_test/test_in/step3/command_blocks/cmd_block_semilicon.in: line 1: `{echo
+    toto; echo   hello;}''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/command_blocks/pipe_ls_echo_cat_bc.in
+  stderr: '(standard_in) 1: syntax error
+
+    (standard_in) 1: illegal character: $
+
+    (standard_in) 2: syntax error
+
+    (standard_in) 2: illegal character: $
+
+    (standard_in) 3: syntax error
+
+    (standard_in) 3: illegal character: $
+
+    (standard_in) 4: illegal character: $
+
+    (standard_in) 5: illegal character: $
+
+    (standard_in) 6: syntax error
+
+    (standard_in) 6: illegal character: $
+
+    (standard_in) 7: illegal character: $
+
+    (standard_in) 8: illegal character: $
+
+    (standard_in) 9: illegal character: $
+
+    (standard_in) 10: illegal character: $
+
+    '
+  stdout: ''

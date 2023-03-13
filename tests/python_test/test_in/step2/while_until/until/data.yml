@@ -1,0 +1,39 @@
+- exitcode: 0
+  file: python_test/test_in/step2/while_until/until/echo_until.in
+  stderr: ''
+  stdout: 'until
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/while_until/until/until_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/while_until/until/two_loop.in
+  stderr: ''
+  stdout: 'false false
+
+    true false
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step2/while_until/until/return_code.in
+  stderr: ''
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step2/while_until/until/error_bad_separator.in
+  stderr: 'python_test/test_in/step2/while_until/until/error_bad_separator.in: line
+    2: syntax error near unexpected token `then''
+
+    python_test/test_in/step2/while_until/until/error_bad_separator.in: line 2: `then''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/while_until/until/one_loop.in
+  stderr: ''
+  stdout: 'false
+
+    toto
+
+    '

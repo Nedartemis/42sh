@@ -1,0 +1,122 @@
+- exitcode: 0
+  file: python_test/test_in/step3/functions/collision_with_command.in
+  stderr: ''
+  stdout: 'the fake ls
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/functions/redirection_double.in
+  stderr: 'rm: cannot remove ''tmp/test.test'': No such file or directory
+
+    '
+  stdout: 'toto$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/functions/redirection.in
+  stderr: ''
+  stdout: 'toto$
+
+    toto$
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step3/functions/func_1_redir.in
+  stderr: 'python_test/test_in/step3/functions/func_1_redir.in: line 4: syntax error:
+    unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/functions/body_if.in
+  stderr: ''
+  stdout: 'thencond
+
+    thencond
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/functions/different_ast.in
+  stderr: ''
+  stdout: 'test
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/functions/echo_multiple.in
+  stderr: ''
+  stdout: 'toto
+
+    tutu
+
+    tata
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/functions/lot_of_new_line.in
+  stderr: ''
+  stdout: 'toto
+
+    toto
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step3/functions/func_2_redir.in
+  stderr: 'python_test/test_in/step3/functions/func_2_redir.in: line 5: syntax error:
+    unexpected end of file
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/functions/func_in_func_in_func.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/functions/func_in_func.in
+  stderr: 'python_test/test_in/step3/functions/func_in_func.in: line 1: bar: command
+    not found
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step3/functions/empty.in
+  stderr: 'python_test/test_in/step3/functions/empty.in: line 1: syntax error near
+    unexpected token `}''
+
+    python_test/test_in/step3/functions/empty.in: line 1: `foo() {  } ; foo''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/functions/echo_toto.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/functions/collision_with_builtin.in
+  stderr: ''
+  stdout: 'the fake echo
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step3/functions/without_the_close_par.in
+  stderr: 'python_test/test_in/step3/functions/without_the_close_par.in: line 1: syntax
+    error near unexpected token `{''
+
+    python_test/test_in/step3/functions/without_the_close_par.in: line 1: `foo ( {
+    echo :toto:; }; foo''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/functions/redirection_double2.in
+  stderr: ''
+  stdout: 'out1 :
+
+    out2 :
+
+    toto$
+
+    '

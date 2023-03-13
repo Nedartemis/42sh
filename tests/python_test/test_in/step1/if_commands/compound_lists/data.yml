@@ -1,0 +1,79 @@
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/compound_lists/3compound_many_newlines
+    copy.in
+  stderr: ''
+  stdout: 'first part
+
+    second part
+
+    third part
+
+    thencond
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step1/if_commands/compound_lists/bad_separator1.in
+  stderr: 'python_test/test_in/step1/if_commands/compound_lists/bad_separator1.in:
+    line 2: syntax error near unexpected token `;''
+
+    python_test/test_in/step1/if_commands/compound_lists/bad_separator1.in: line 2:
+    `;''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/compound_lists/2compound_mix_separator.in
+  stderr: ''
+  stdout: 'first part
+
+    second part
+
+    third part
+
+    thencond
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/compound_lists/3compound_many_newlines.in
+  stderr: ''
+  stdout: 'first part
+
+    second part
+
+    third part
+
+    thencond
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/compound_lists/if_compound_list_newline.in
+  stderr: ''
+  stdout: 'toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/compound_lists/4compound_big_bodies.in
+  stderr: ''
+  stdout: 'Never
+
+    gonna
+
+    let
+
+    you
+
+    down
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step1/if_commands/compound_lists/1compound_list_many_cond.in
+  stderr: ''
+  stdout: 'first part
+
+    second part
+
+    third part
+
+    thencond
+
+    '

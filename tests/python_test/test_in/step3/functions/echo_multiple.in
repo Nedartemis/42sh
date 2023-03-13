@@ -1,0 +1,1 @@
+foo() { echo toto; echo tutu; echo tata; } ; foo

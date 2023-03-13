@@ -1,0 +1,5 @@
+func() {
+    echo toto
+}
+unset func
+func

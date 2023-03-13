@@ -1,0 +1,6 @@
+- exitcode: 0
+  file: python_test/test_in/step2/variables/prefixes/same_cmd.in
+  stderr: ''
+  stdout: 'a=; b=
+
+    '

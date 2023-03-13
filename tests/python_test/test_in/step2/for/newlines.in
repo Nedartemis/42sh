@@ -1,0 +1,8 @@
+for i 
+
+
+
+    in a b c
+    do
+    echo toto
+done

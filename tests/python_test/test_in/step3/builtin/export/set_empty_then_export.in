@@ -1,0 +1,3 @@
+o=
+export o=toto
+echo $o

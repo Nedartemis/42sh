@@ -1,0 +1,2 @@
+echo toto; continue; echo hello
+echo world

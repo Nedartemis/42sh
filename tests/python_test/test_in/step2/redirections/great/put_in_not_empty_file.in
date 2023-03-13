@@ -1,0 +1,2 @@
+echo toto > python_test/tmp/list_files_DO_NOT_RM.txt
+cat python_test/tmp/list_files_DO_NOT_RM.txt

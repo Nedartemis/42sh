@@ -1,0 +1,196 @@
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/grammar/redir_bad_ending7.in
+  stderr: 'python_test/test_in/step2/redirections/grammar/redir_bad_ending7.in: line
+    1: syntax error near unexpected token `newline''
+
+    python_test/test_in/step2/redirections/grammar/redir_bad_ending7.in: line 1: `echo
+    toto >|''
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/grammar/redir_bad_ending4.in
+  stderr: 'python_test/test_in/step2/redirections/grammar/redir_bad_ending4.in: line
+    1: syntax error near unexpected token `newline''
+
+    python_test/test_in/step2/redirections/grammar/redir_bad_ending4.in: line 1: `echo
+    toto >&''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/if_1_redir.in
+  stderr: ''
+  stdout: 'toto$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/assignment_plus_cmd.in
+  stderr: ''
+  stdout: ':toto:
+
+    :toto:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/while_2_redir.in
+  stderr: ''
+  stdout: 'toto$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/only_redir.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/simple_cmd_wtf_just_prefix.in
+  stderr: ''
+  stdout: 'a = toto
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/for_2_redir.in
+  stderr: ''
+  stdout: 'toto$
+
+    toto$
+
+    toto$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/if_2_redir.in
+  stderr: ''
+  stdout: 'toto$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/simple_cmd_just_prefix.in
+  stderr: ''
+  stdout: 'cat stdout
+
+    cat stderr
+
+    cat var
+
+    a = hello
+
+    b = world
+
+    c = bar
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/until_2_redir.in
+  stderr: ''
+  stdout: 'toto$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/while_1_redir.in
+  stderr: ''
+  stdout: 'toto$
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/grammar/redir_bad_ending3.in
+  stderr: 'python_test/test_in/step2/redirections/grammar/redir_bad_ending3.in: line
+    1: syntax error near unexpected token `newline''
+
+    python_test/test_in/step2/redirections/grammar/redir_bad_ending3.in: line 1: `echo
+    toto < ''
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/grammar/redir_bad_ending6.in
+  stderr: 'python_test/test_in/step2/redirections/grammar/redir_bad_ending6.in: line
+    1: syntax error near unexpected token `newline''
+
+    python_test/test_in/step2/redirections/grammar/redir_bad_ending6.in: line 1: `echo
+    toto <>''
+
+    '
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/grammar/redir_bad_ending2.in
+  stderr: 'python_test/test_in/step2/redirections/grammar/redir_bad_ending2.in: line
+    1: syntax error near unexpected token `newline''
+
+    python_test/test_in/step2/redirections/grammar/redir_bad_ending2.in: line 1: `echo
+    toto >> ''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/for_1_redir.in
+  stderr: ''
+  stdout: 'toto$
+
+    toto$
+
+    toto$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/simple_cmd_wtf.in
+  stderr: ''
+  stdout: "a = \n:: a=toto$\n"
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/simple_cmp_prefix_and_redir.in
+  stderr: ''
+  stdout: "a = \n::$\n"
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/just_assignment.in
+  stderr: ''
+  stdout: 'after the assignment :helloworld:
+
+    '
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/grammar/redir_bad_ending5.in
+  stderr: 'python_test/test_in/step2/redirections/grammar/redir_bad_ending5.in: line
+    1: syntax error near unexpected token `newline''
+
+    python_test/test_in/step2/redirections/grammar/redir_bad_ending5.in: line 1: `echo
+    toto <&''
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/until_1_redir.in
+  stderr: ''
+  stdout: 'toto$
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/simple_cmd_many_things.in
+  stderr: ''
+  stdout: 'cat stdout
+
+    :toto:$
+
+    cat stderr
+
+    cat var
+
+    a = toto;
+
+    b = ;
+
+    c = ;
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/redirections/grammar/only_redir2.in
+  stderr: ''
+  stdout: ''
+- exitcode: 2
+  file: python_test/test_in/step2/redirections/grammar/redir_bad_ending.in
+  stderr: 'python_test/test_in/step2/redirections/grammar/redir_bad_ending.in: line
+    1: syntax error near unexpected token `newline''
+
+    python_test/test_in/step2/redirections/grammar/redir_bad_ending.in: line 1: `echo
+    toto >''
+
+    '
+  stdout: ''

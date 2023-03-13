@@ -1,0 +1,2 @@
+a=toto;
+case $a in ( toto ) echo toto ; esac

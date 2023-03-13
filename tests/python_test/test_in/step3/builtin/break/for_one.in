@@ -1,0 +1,7 @@
+echo before loop
+for i in 1 2; do
+    echo i = $i should be print
+    break
+    echo should no be print
+done
+echo after loop

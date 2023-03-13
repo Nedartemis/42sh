@@ -1,0 +1,118 @@
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/remove_begin_end3.in
+  stderr: ''
+  stdout: "\nhello\t\n"
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/null.in
+  stderr: ''
+  stdout: '<hello world>
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/remove_begin_end4.in
+  stderr: ''
+  stdout: 'hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/remove_begin_end2.in
+  stderr: ''
+  stdout: 'hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/multiple_delimiter_in_a_row.in
+  stderr: ''
+  stdout: '<hello>
+
+    <>
+
+    <>
+
+    <>
+
+    <>
+
+    <>
+
+    <world>
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step4/field_splitting/null2.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/change_IFS_in_the_middle.in
+  stderr: ''
+  stdout: '<hello>
+
+    <world>
+
+    <!;toto>
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/just_space2.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/lot_of_different_sep.in
+  stderr: ''
+  stdout: '<1>
+
+    <2>
+
+    <3>
+
+    <4>
+
+    <5>
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/just_space.in
+  stderr: ''
+  stdout: '<1>
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/dont_remove_begin_end.in
+  stderr: ''
+  stdout: "\n\t hello\n\t \n"
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/remove_begin_end.in
+  stderr: ''
+  stdout: 'hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/begin_no_IFS_white_space.in
+  stderr: ''
+  stdout: '<>
+
+    <hello>
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/no_field_splitting.in
+  stderr: ''
+  stdout: '<hello world>
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/simple_space.in
+  stderr: ''
+  stdout: '<hello>
+
+    <world>
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step4/field_splitting/lot_of_space.in
+  stderr: ''
+  stdout: '<1>
+
+    <2>
+
+    '

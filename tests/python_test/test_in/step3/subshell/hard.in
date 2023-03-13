@@ -1,0 +1,1 @@
+ls; echo toto; true || false; ( echo tutu; exit 8; echo tata; ); true && false || false;

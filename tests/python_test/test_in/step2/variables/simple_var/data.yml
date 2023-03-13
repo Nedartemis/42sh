@@ -1,0 +1,84 @@
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/without_bracket_space.in
+  stderr: ''
+  stdout: 'hello b
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/without_empty_substitution.in
+  stderr: ''
+  stdout: '
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/without_long_name_var.in
+  stderr: ''
+  stdout: 'hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/without_bracket_delimiter.in
+  stderr: ''
+  stdout: 'hello:b
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/without_double.in
+  stderr: ''
+  stdout: ':helloworld?
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/without_take_the_longer.in
+  stderr: ''
+  stdout: '
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/with_long.in
+  stderr: ''
+  stdout: 'hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/different_ast.in
+  stderr: ''
+  stdout: ':hello:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/multiple_assignment_in_a_row.in
+  stderr: ''
+  stdout: 'a=hello ; b=hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/in_double_quote.in
+  stderr: ''
+  stdout: ':hello:world:
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/with_empty_subst.in
+  stderr: ''
+  stdout: '
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/without_bracket.in
+  stderr: ''
+  stdout: 'hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/with_good_substitution.in
+  stderr: ''
+  stdout: 'hello
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step2/variables/simple_var/with_double.in
+  stderr: ''
+  stdout: ':helloworld?
+
+    '

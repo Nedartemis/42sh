@@ -1,0 +1,120 @@
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/cd/cd_tiret.in
+  stderr: ''
+  stdout: '/home/secouss/Documents/epita/S5/prog/42sh_dir/github/42sh/tests
+
+    /home/secouss/Documents/epita/S5/prog/42sh_dir/github/42sh/tests/python_test
+
+    old:/home/secouss/Documents/epita/S5/prog/42sh_dir/github/42sh/tests/python_test/test_in
+
+    new:/home/secouss/Documents/epita/S5/prog/42sh_dir/github/42sh/tests/python_test
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/cd/move_and_echo.in
+  stderr: 'python_test/test_in/step3/builtin/cd/move_and_echo.in: line 2: cd: /home/zoe.breniaux/afs/ing1/42sh/42sh/src:
+    No such file or directory
+
+    '
+  stdout: 'cwd:/home/secouss/Documents/epita/S5/prog/42sh_dir/github/42sh/tests
+
+    42sh
+
+    Makefile
+
+    build.sh
+
+    criterion_test
+
+    file_test
+
+    py_env.sh
+
+    python_test
+
+    script_test
+
+    tmp
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/cd/cd_inexistant.in
+  stderr: 'python_test/test_in/step3/builtin/cd/cd_inexistant.in: line 1: cd: inexistant_path:
+    No such file or directory
+
+    '
+  stdout: '42sh
+
+    Makefile
+
+    build.sh
+
+    criterion_test
+
+    file_test
+
+    py_env.sh
+
+    python_test
+
+    script_test
+
+    tmp
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step3/builtin/cd/cd_tiret_begining_with_OLDPWD_declared.in
+  stderr: 'python_test/test_in/step3/builtin/cd/cd_tiret_begining_with_OLDPWD_declared.in:
+    line 2: cd: /home/zoe.breniaux/afs/ing1/42sh/42sh: No such file or directory
+
+    '
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/cd/cd_tiret_begining.in
+  stderr: ''
+  stdout: '/home/secouss/Documents/epita/S5/prog/42sh_dir/github
+
+    /home/secouss/Documents/epita/S5/prog/42sh_dir/github
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/cd/cd_change_user.in
+  stderr: 'python_test/test_in/step3/builtin/cd/cd_change_user.in: line 2: cd: /home/zoe.breniaux/afs/ing1/42sh/42sh:
+    No such file or directory
+
+    '
+  stdout: '42sh
+
+    Makefile
+
+    build.sh
+
+    criterion_test
+
+    file_test
+
+    py_env.sh
+
+    python_test
+
+    script_test
+
+    tmp
+
+    '
+- exitcode: 0
+  file: python_test/test_in/step3/builtin/cd/cd_point_point.in
+  stderr: ''
+  stdout: '42sh
+
+    CMakeLists.txt
+
+    README.md
+
+    build
+
+    src
+
+    tests
+
+    '

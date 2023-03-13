@@ -1,0 +1,2 @@
+alias foo='func ('
+foo ) { echo call of func; }; func

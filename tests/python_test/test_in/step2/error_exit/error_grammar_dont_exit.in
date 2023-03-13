@@ -1,0 +1,4 @@
+if true; then
+    echo dont_error_exit_code
+done
+echo should not be print either

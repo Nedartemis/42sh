@@ -1,0 +1,1 @@
+b=hello; a=$(echo :$b:); echo ?$a?

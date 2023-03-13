@@ -1,0 +1,52 @@
+- exitcode: 1
+  file: python_test/test_in/step1/builtin/true_false/true_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 1
+  file: python_test/test_in/step1/builtin/true_false/multiple_with_newline2.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/true_false/quoted_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/true_false/true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/true_false/complex.in
+  stderr: ''
+  stdout: 'toto
+
+    false
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step1/builtin/true_false/quoted_false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/true_false/multiple_with_new_lines.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/true_false/if_false_true.in
+  stderr: ''
+  stdout: 'then_cond
+
+    '
+- exitcode: 1
+  file: python_test/test_in/step1/builtin/true_false/false.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/true_false/false_true.in
+  stderr: ''
+  stdout: ''
+- exitcode: 0
+  file: python_test/test_in/step1/builtin/true_false/if_true_false.in
+  stderr: ''
+  stdout: 'else_cond
+
+    '
